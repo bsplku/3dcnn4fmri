@@ -32,7 +32,7 @@ CAMtoInput_inbrain = zeros(53,63,46);
 CAMtoInput_inbrain(vmsk) = CAMinbrain;
 
 % threshold CAM with top 1 percentile
-% msk = CAMtoInput_inbrain > prctile(CAMtoInput_inbrain(:), 98.5); 
+% msk = CAMtoInput_inbrain > prctile(CAMtoInput_inbrain(:), 99); 
 % CAMtoInput_1d = CAMtoInput_inbrain(:); CAMthr = CAMtoInput_1d(msk);
 % CAMthr3d = zeros(53,63,46);
 % CAMthr3d(msk) = CAMthr; 
