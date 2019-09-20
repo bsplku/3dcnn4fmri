@@ -19,7 +19,7 @@
 * Configure a network: a config file named ‘3DCNN_config_sensorimotor.conf’ describes the network structure, training parameters and other possible configurations for 3D-CNN model
 * Train a network: run the file ‘demo_3DCNN.m’ to train the network with our sample data
 
-## Python code with Tensorflow library:
+## Python codes with Tensorflow library:
 ### Data structure: 
 * The input ‘.mat’ file includes:
 - ‘X_train’, ‘X_test’ are training and testing set of data in 4D
