@@ -33,7 +33,7 @@
 * Two approaches including the visualization of class saliency map (Simonyan et al., 2013)[2] and the class activation maps (CAM) (Zhou et al., 2016)[3] was applied to our 3D-CNN model.
 ### Matlab code for CAM (Zhou et al., 2016)[3]:
 * Run the file 'CAM_sensorimotor.m'
-## Python code with Tensorflow library for class saliency map (Simonyan et al., 2013)[2]
+### Python code with Tensorflow library for class saliency map (Simonyan et al., 2013)[2]
 * Run the file 'saliency_map_basic.ipynb'
 
 ### References
