@@ -1,7 +1,7 @@
 # 3D convolutional neural network (CNN) for 3D fMRI volume classification
-* These are the MATLAB codes and Python codes for our 3D-CNN model which was used for 3D fMRI volume classification. The saliency maps visualization codes were also included.
+* These are the MATLAB codes and Python codes for our 3D-CNN model which was used for 3D fMRI volume classification. The codes to visualize a trained 3D-CNN were also included.
 
-## Sample of data: 
+## Sample data: 
 * The sample 3D fMRI volume series data were acquired during the four sensorimotor tasks including left-hand clenching, right-hand clenching, auditory attention, and visual stimulus tasks [1].
 * Our sensorimotor dataset includes the data from 12 subjects, each subject performed 30 3D fMRI volumes for each of the four tasks; therefore, a totally of 1440 3D fMRI volumes across all subjects.
 
@@ -32,7 +32,7 @@
 * Run the ‘3dcnn_fmri_demo.ipynb’ to train our sample data
 * The python code can be easier to add or remove pooling layers in the 3D-CNN network structure.
 
-## Saliency maps visualization:
+## Visualization of a trained 3D-CNN via a class saliency map and class activation map:
 * Two approaches including the visualization of class saliency map (Simonyan et al., 2013)[2] and the class activation maps (CAM) (Zhou et al., 2016)[3] was applied to our 3D-CNN model.
 ### Matlab code for CAM (Zhou et al., 2016)[3]:
 * Run the file 'CAM_sensorimotor.m'
