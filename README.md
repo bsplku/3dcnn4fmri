@@ -1,5 +1,5 @@
 # 3D convolutional neural network (CNN) for 3D fMRI volume classification
-* These are the MATLAB codes and Python codes for our 3D-CNN model which was used for 3D fMRI volume series classification. The saliency maps visualization codes were also included.
+* These are the MATLAB codes and Python codes for our 3D-CNN model which was used for 3D fMRI volume classification. The saliency maps visualization codes were also included.
 
 ## Sample of data: 
 * The sample 3D fMRI volume series data were acquired during the four sensorimotor tasks including left-hand clenching, right-hand clenching, auditory attention, and visual stimulus tasks [1].
@@ -7,6 +7,7 @@
 
 ## MATLAB codes:
 * The code is originally from https://github.com/hagaygarty/mdCNN and was modified to fit our 3D-CNN model for fMRI volume classification.
+
 ### Data structure: 
 * The input ‘.mat’ file is a ‘struct’ named ‘SEN’ with 4 elements:
 - ‘I’: ‘cell’ type data for training, each cell is a 3D fMRI volume
@@ -15,6 +16,7 @@
 - ‘labels_test’: labels for testing data. ‘I_test’ and ‘labels-test’ should have same length
 * This data sample is for leave-one-subject-out classification; hence, ‘I_test’ has 120 3D fMRI volumes from subject #1, and ‘I_train’ has 1320 3D fMRI volumes from 11 remaining subjects. The volumes and labels were randomized across all the 11 subjects.
 * Please download the sample data in this link: http://bspl.korea.ac.kr/Research_data/sensorimotor/sensorimotor_3D_sample.mat
+
 ### Run code:
 * Configure a network: a config file named ‘3DCNN_config_sensorimotor.conf’ describes the network structure, training parameters and other possible configurations for 3D-CNN model
 * Train a network: run the file ‘demo_3DCNN.m’ to train the network with our sample data
@@ -25,6 +27,7 @@
 - ‘X_train’, ‘X_test’ are training and testing set of data in 4D
 - ‘y_train’, ‘y_test’ are the labels for the training and testing
 * Please download the sample data in this link: http://bspl.korea.ac.kr/Research_data/sensorimotor/sensorimotor_4D_sample.mat
+
 ### Run code: 
 * Run the ‘3dcnn_fmri_demo.ipynb’ to train our sample data
 * The python code can be easier to add or remove pooling layers in the 3D-CNN network structure.
