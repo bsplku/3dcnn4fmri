@@ -1,4 +1,4 @@
-# 3D convolutional neural network (CNN) for 3D fMRI volume series classification
+# 3D convolutional neural network (CNN) for 3D fMRI volume classification
 * These are the MATLAB codes and Python codes for our 3D-CNN model which was used for 3D fMRI volume series classification. The saliency maps visualization codes were also included.
 
 ## Sample of data: 
