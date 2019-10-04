@@ -17,7 +17,7 @@
 * The sample data is prepared for leave-one-subject-out classification; hence, ‘I_test’ has 120 3D fMRI volumes from subject #1, and ‘I_train’ has 1320 3D fMRI volumes from 11 remaining subjects. The volumes and labels were randomized across all the 11 subjects.
 * Please download the sample data in this link: http://bspl.korea.ac.kr/Research_data/sensorimotor/sensorimotor_3D_sample.mat
 
-### Run code:
+### Running code:
 * Configure a network: a config file named ‘3DCNN_config_sensorimotor.conf’ describes the network structure, training parameters and other possible configurations for 3D-CNN model
 * Train a network: run the file ‘demo_3DCNN.m’ to train the network using our sample data
 
@@ -28,7 +28,7 @@
 - ‘y_train’, ‘y_test’ are the labels for the training and testing (i.e., 1D arrays)
 * Please download the sample data in this link: http://bspl.korea.ac.kr/Research_data/sensorimotor/sensorimotor_4D_sample.mat
 
-### Run code: 
+### Running code: 
 * Run the ‘3dcnn_fmri_demo.ipynb’ to train a 3D-CNN model using our sample data
 * Changes such as adding/removing convolution and/or pooling layers can be easily done by tweaking the 3D-CNN network structure defined in this ipython notebook code.
 
