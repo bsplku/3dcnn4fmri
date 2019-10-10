@@ -21,7 +21,7 @@
 * Configure a network: a config file named ‘3DCNN_config_sensorimotor.conf’ describes the network structure, training parameters and other possible configurations for 3D-CNN model
 * Train a network: run the file ‘demo_3DCNN.m’ to train the network using our sample data
 
-## Python codes with Tensorflow library:
+## Python codes with TensorFlow library:
 ### Data structure: 
 * The input ‘.mat’ file includes:
 - ‘X_train’, ‘X_test’ are training and testing set of data as 3D volume series (i.e., 4D arrays)
@@ -33,11 +33,13 @@
 * Changes such as adding/removing convolution and/or pooling layers can be easily done by tweaking the 3D-CNN network structure defined in this ipython notebook code.
 
 ## Visualization of a trained 3D-CNN via a class saliency and class activation maps:
-* Two approaches including the visualization of class saliency map (Simonyan et al., 2013)[2] and the class activation maps (CAM) (Zhou et al., 2016)[3] were applied to visualize our trained 3D-CNN model.
-### Matlab code for CAM (Zhou et al., 2016)[3]:
-* Run the file 'CAM_sensorimotor.m'
-### Python code with Tensorflow library for class saliency map (Simonyan et al., 2013)[2]
+* Two approaches including the visualization of class saliency map [2] and the class activation maps (CAM) [3] were applied to visualize our trained 3D-CNN model.
+
+### Python code with TensorFlow library for class saliency map [2]
 * Run the file 'saliency_map_basic.ipynb'
+
+### MATLAB code for CAM [3]:
+* Run the file 'CAM_sensorimotor.m'
 
 ### References
 * [1] Jang, H., Plis, S.M., Calhoun, V.D. and Lee, J.H., 2017. Task-specific feature extraction and classification of fMRI volumes using a deep neural network initialized with a deep belief network: Evaluation using sensorimotor tasks. Neuroimage, 145, pp.314-328.
