@@ -32,8 +32,8 @@
 * Run the ‘3dcnn_fmri_demo.ipynb’ to train a 3D-CNN model using our sample data
 * Changes such as adding/removing convolution and/or pooling layers can be easily done by tweaking the 3D-CNN network structure defined in this ipython notebook code.
 
-## Visualization of a trained 3D-CNN via a class saliency and class activation maps:
-* Two approaches including the visualization of class saliency map [2] and the class activation maps (CAM) [3] were applied to visualize our trained 3D-CNN model.
+## Visualization of a trained 3D-CNN via a class saliency map, class activation map, and effective receptive field map:
+* Three approaches including the visualization of class saliency map [2], class activation maps (CAM) [3], effective receptive field (ERF) map [4] were applied to visualize our trained 3D-CNN model.
 
 ### Python code with TensorFlow library for class saliency map [2]
 * Run the file 'saliency_map_basic.ipynb'
@@ -41,8 +41,11 @@
 ### MATLAB code for CAM [3]:
 * Run the file 'CAM_sensorimotor.m'
 
+### Python code for ERF [4]:
+* Run the file '###.ipynb'
+
 ### References
 * [1] Jang, H., Plis, S.M., Calhoun, V.D. and Lee, J.H., 2017. Task-specific feature extraction and classification of fMRI volumes using a deep neural network initialized with a deep belief network: Evaluation using sensorimotor tasks. Neuroimage, 145, pp.314-328.
 * [2] Simonyan, K., Vedaldi, A., Zisserman, A., 2013. Deep inside convolutional networks: Visualising image classification models and saliency maps. arXiv preprint arXiv:1312.6034.
 * [3] Zhou, B., Khosla, A., Lapedriza, A., Oliva, A., Torralba, A., 2016. Learning deep features for discriminative localization. Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 2921-2929.
-
+* [4] Luo, W., Li, Y., Urtasun, R., Zemel, R., 2016. Understanding the effective receptive field in deep convolutional neural networks, in: Advances in Neural Information Processing Systems. pp. 4898–4906.
