@@ -8,12 +8,13 @@
 * Our sensorimotor dataset includes the data from 12 subjects, each subject performed each of the four tasks (three blocks per task; 20s per block). Thus, there were 30 3D fMRI volumes for each task per subject, 120 3D fMRI volumes across all four tasks per subject, and a total of 1440 3D fMRI volumes across all subjects.
 
 ### Data structure: 
-* The input ‘.mat’ file is a ‘struct’ named ‘SEN’ with 4 elements:
+The input ‘.mat’ file is a ‘struct’ named ‘SEN’ with 4 elements:
 - ‘I’: ‘cell’ type data for training, each cell is a 3D fMRI volume
 - ‘labels’: labels for training data. ‘I’ and ‘labels’ should have same length
 - ‘I_test’: ‘cell’ type data for testing, each cell is a 3D fMRI volume
 - ‘labels_test’: labels for testing data. ‘I_test’ and ‘labels-test’ should have same length
-* The sample data is prepared for leave-one-subject-out classification; hence, ‘I_test’ has 120 3D fMRI volumes from subject #1, and ‘I_train’ has 1320 3D fMRI volumes from 11 remaining subjects. The volumes and labels were randomized across all the 11 subjects.
+
+The sample data is prepared for leave-one-subject-out classification; hence, ‘I_test’ has 120 3D fMRI volumes from subject #1, and ‘I_train’ has 1320 3D fMRI volumes from 11 remaining subjects. The volumes and labels were randomized across all the 11 subjects.
 
 ### Running code:
 Directory: demo folder
