@@ -1,6 +1,9 @@
 ## MATLAB codes:
-### Data structure: 
+### Download:
 * Please download the sample data in this link: http://bspl.korea.ac.kr/Research_data/sensorimotor/sensorimotor_3D_sample.mat
+* Please download the a trained model (for the visualization) in this link: http://bspl.korea.ac.kr/Research_data/sensorimotor/net_sensorimotor_3D.mat
+
+### Data structure: 
 * The input ‘.mat’ file is a ‘struct’ named ‘SEN’ with 4 elements:
 - ‘I’: ‘cell’ type data for training, each cell is a 3D fMRI volume
 - ‘labels’: labels for training data. ‘I’ and ‘labels’ should have same length
@@ -13,5 +16,4 @@
 * Train a network: run the file ‘demo_3DCNN.m’ to train the network using our sample data
 
 ### Visualization of a trained 3D-CNN:
-* Please download the a trained model (for the visualization) in this link: http://bspl.korea.ac.kr/Research_data/sensorimotor/net_sensorimotor_3D.mat
 * Run the file 'CAM_sensorimotor.m' for CAM
