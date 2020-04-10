@@ -7,7 +7,7 @@
 * Our sensorimotor dataset includes the data from 12 subjects, each subject performed each of the four tasks (three blocks per task; 20s per block). Thus, there were 30 3D fMRI volumes for each task per subject, 120 3D fMRI volumes across all four tasks per subject, and a total of 1440 3D fMRI volumes across all subjects.
 
 ### Data structure: 
-* The input ‘.mat’ file includes:
+The input ‘.mat’ file includes:
 - ‘X_train’, ‘X_test’ are training and testing set of data as 3D volume series (i.e., 4D arrays)
 - ‘y_train’, ‘y_test’ are the labels for the training and testing (i.e., 1D arrays)
 - 'X_train' contains 1320 3D fMRI volumes from 11 subjects
