@@ -42,7 +42,7 @@
 * Run the file 'CAM_sensorimotor.m'
 
 ### Python code for ERF [4]:
-* Run the file '###.ipynb'
+* Run the file 'receptive_field.ipynb'
 
 ### References
 * [1] Jang, H., Plis, S.M., Calhoun, V.D. and Lee, J.H., 2017. Task-specific feature extraction and classification of fMRI volumes using a deep neural network initialized with a deep belief network: Evaluation using sensorimotor tasks. Neuroimage, 145, pp.314-328.
