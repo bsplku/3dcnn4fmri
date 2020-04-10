@@ -29,7 +29,7 @@ Training process [2]:
 * It’s possible to load the network file, and then continue the training process by calling the ‘Train’ function.
 
 Testing process: 
-* 'utilCode/checkNetwork.m' is used to test the network and presented Confusion matrix.
+* 'utilCode/checkNetwork.m' is used to test the network and present Confusion matrix.
 
 ### Visualization of a trained 3D-CNN:
 * Class activation maps (CAM) [3]: Run the file 'CAM_sensorimotor.m'
