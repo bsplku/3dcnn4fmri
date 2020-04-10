@@ -22,9 +22,11 @@ Directory: demo folder
 
 Setting network configuration:
 * All possible configuration settings and default values can be found in ‘mdCNN/CreateNet.m’ in ‘initNetDefaults’ function (e.g., Layer specification, Hyper params, Run params)
+
 Training process [2]:
 * The network state is saved after each iteration loop. The net is saved to a file called ‘net.mat’. This file contains the full state of the network, including the Training state, so we can halt the training process anytime and then load the network from file using load(‘net.mat’).
 * It’s possible to load the network file, and then continue the training process by calling the ‘Train’ function.
+
 Testing process: 
 * 'utilCode/checkNetwork.m' is used to test the network and presented Confusion matrix.
 
