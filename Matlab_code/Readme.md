@@ -33,7 +33,8 @@ Testing process:
 
 ### Visualization of a trained 3D-CNN:
 * Class activation maps (CAM) [3]: Run the file 'CAM_sensorimotor.m'
-* Supported file:
+
+Supported file:
 - File 'inbrain_mask.mat' is a vector of inbrain voxels of fully preprocessing 3D fMRI volume.
 - Function 'imagall.m' plots 3D fMRI volume in 2D slices.
 - Function 'map2jpg.m' changes to colormap of the heatmap (intensity map). 
