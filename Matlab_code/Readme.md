@@ -20,12 +20,13 @@ Directory: demo folder
 * Configure a network: a config file named ‘3DCNN_config_sensorimotor.conf’ describes the network structure, training parameters and other possible configurations for 3D-CNN model
 * Train a network: run the file ‘demo_3DCNN.m’ to train the network using our sample data
 
-* Setting network configuration: All possible configuration settings and default values can be found in ‘mdCNN/CreateNet.m’ in ‘initNetDefaults’ function (e.g., Layer specification, Hyper params, Run params)
-* Training process [2]:
-- The network state is saved after each iteration loop. The net is saved to a file called ‘net.mat’. This file contains the full state of the network, including the Training state, so we can halt the training process anytime and then load the network from file using load(‘net.mat’).
-- It’s possible to load the network file, and then continue the training process by calling the ‘Train’ function.
-* Testing process: 
-- 'utilCode/checkNetwork.m' is used to test the network and presented Confusion matrix.
+Setting network configuration:
+* All possible configuration settings and default values can be found in ‘mdCNN/CreateNet.m’ in ‘initNetDefaults’ function (e.g., Layer specification, Hyper params, Run params)
+Training process [2]:
+* The network state is saved after each iteration loop. The net is saved to a file called ‘net.mat’. This file contains the full state of the network, including the Training state, so we can halt the training process anytime and then load the network from file using load(‘net.mat’).
+* It’s possible to load the network file, and then continue the training process by calling the ‘Train’ function.
+Testing process: 
+* 'utilCode/checkNetwork.m' is used to test the network and presented Confusion matrix.
 
 ### Visualization of a trained 3D-CNN:
 * Class activation maps (CAM) [3]: Run the file 'CAM_sensorimotor.m'
